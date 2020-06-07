@@ -642,12 +642,12 @@ PrefabInstance:
     - target: {fileID: 437234183539421716, guid: 33f142ea020b8f24baa3e9c78f789640,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 437234183539421716, guid: 33f142ea020b8f24baa3e9c78f789640,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7
+      value: -0.016
       objectReference: {fileID: 0}
     - target: {fileID: 437234183539421716, guid: 33f142ea020b8f24baa3e9c78f789640,
         type: 3}
@@ -708,10 +708,46 @@ PrefabInstance:
     - target: {fileID: 437234183539421719, guid: 33f142ea020b8f24baa3e9c78f789640,
         type: 3}
       propertyPath: scale
-      value: 0.25
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 437234183539421722, guid: 33f142ea020b8f24baa3e9c78f789640,
+        type: 3}
+      propertyPath: updateEveryFrame
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33f142ea020b8f24baa3e9c78f789640, type: 3}
+--- !u!1 &1254871357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 437234183539421718, guid: 33f142ea020b8f24baa3e9c78f789640,
+    type: 3}
+  m_PrefabInstance: {fileID: 1189629975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1254871358 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 437234183539421722, guid: 33f142ea020b8f24baa3e9c78f789640,
+    type: 3}
+  m_PrefabInstance: {fileID: 1189629975}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254871357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db1dcac2dedc724194c423ee75b3bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1254871361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254871357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126fe9029ded97c41a34e7718509b7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multipleMonitorLayouter: {fileID: 1254871358}
 --- !u!1001 &1314050847
 PrefabInstance:
   m_ObjectHideFlags: 0
